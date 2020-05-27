@@ -1,0 +1,93 @@
+.fromdatepicker,.todatepicker,.submitdatepicker,.contamination{
+    display:inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    margin-left: 2%;
+  }
+  .continput,.contbutton{
+    display:inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+
+  }
+  .contbutton{
+    margin-left: 2%;
+  }
+  .totalrowcount,.totalcolumncount,.saveresult{
+    display:inline-block;
+    margin-left: 2%;
+
+  }
+  .saveresult{
+    width:700px;
+  }
+  .fromdatepicker,.todatepicker,.continput{
+    width: 270px;
+  }
+
+  #submitbutton{
+      width: 6rem;   
+  }
+
+  
+  .datepicker{
+    margin-top: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 0.1rem;
+    .datepicker-tittle{
+      margin-bottom: 2rem ;
+    }
+  }
+
+  #myDIV{
+   max-width : 98.5%;
+  -webkit-box-shadow: 0px -1px 5px 1px rgba(51,49,51,1);
+  -moz-box-shadow: 0px -1px 5px 1px rgba(51,49,51,1);
+  box-shadow: 0px -1px 5px 1px rgba(51,49,51,1);
+  border: 1px solid white;
+  margin-top: 1%;
+  padding: 0.5em;
+  overflow-y: auto;
+  overflow-x: auto scroll;
+  max-height: 24rem;
+
+  }
+
+  .table-view{
+    width: 95% ;
+    margin-left: 2%;
+  }
+
+  .contamination{
+    width: 30%;
+    margin-bottom: 2px;  
+    margin-left: 2rem;
+
+  }
+
+
+  .busyindicator{
+      height: 0;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+  }
+  .dialog-main-section {
+    padding: 0.5em;
+    min-width: 15em;
+    width: 500px;
+    span{
+        padding: 0 0.5em;
+    }
+    
+}
+
+.date-innerblock{
+  background-color:#354589;
+  padding-top: 1rem;
+}
+.labels{
+  font-weight: bold;
+  color: white;
+
+}
